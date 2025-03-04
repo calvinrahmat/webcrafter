@@ -9,7 +9,16 @@ const Logo = () => {
   return (
     <Box sx={{ mt: "2px", a: { cursor: "pointer" } }}>
       <Link to="home" spy={true} smooth={true} duration={500}>
-        <Image src={Logos} width={200} height={200} alt="Logo" />
+        <Box
+          component="img"
+          src={Logos}
+          alt="Logo"
+          sx={{
+            width: "auto",
+            height: { xxl: "200px", xxs: "150px" },
+            cursor: "pointer",
+          }}
+        />
       </Link>
     </Box>
   );

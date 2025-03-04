@@ -11,19 +11,21 @@ const HeroContent = () => {
   return (
     <Box sx={styles.Container}>
       <Typography variant="h2" component="h2" sx={styles.Title}>
-        We are <br />
-        Webcrafter Studio
+        Get Your Free
+        <br />
+        Professional Website
       </Typography>
       <Typography variant="h6" component="h6" sx={styles.Slogan}>
-        Your Dream, We Build
+        Launch Your Business Online Today
       </Typography>
       <Typography variant="body1" component="p" sx={styles.Description}>
-        Where an idea turns into a project. Help your startups, business, and
-        ideas to grow more and solve the problem with the power of code.
+        Transform your business with a stunning website - completely free! No
+        hidden fees, no credit card required. Get a professional,
+        mobile-friendly website designed by experts.
       </Typography>
       <Link to="portfolio" spy={true} smooth={true} duration={500}>
         <ButtonBase sx={styles.Button}>
-          See Projects
+          Start Building Free
           <ArrowForwardTwoToneIcon />
         </ButtonBase>
       </Link>

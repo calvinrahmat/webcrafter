@@ -11,6 +11,7 @@ import Client from "Section/Client";
 import Blog from "Section/Blog";
 import Contact from "Section/Contact";
 import Footer from "Section/Footer";
+import FloatingWhatsApp from "Components/FloatingWhatsApp";
 
 const index = () => {
   return (
@@ -25,7 +26,9 @@ const index = () => {
       <Blog />
       <Contact />
       <Footer />
+      <FloatingWhatsApp />
     </>
   );
 };
+
 export default index;

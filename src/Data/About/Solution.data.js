@@ -6,15 +6,15 @@ import Graphic from "Assets/about/graphic.png";
 
 export default [
   {
-    title: "UI/UX",
+    title: "Premium Features",
     description:
-      "Start with listening to your idea, research, make a wireframe, build a prototype, finalizing the UI/UX.",
+      "Get enterprise-level features at no cost: responsive design, SEO optimization, fast loading speeds, and secure hosting included.",
     icon: Ui,
   },
   {
     title: "Web Development",
     description:
-      "Create a highspeed, modern and responsive website and web application for you.",
+      "Fully customized websites with advanced features like e-commerce, booking systems, and more - start with our free plan.",
     icon: Web,
   },
   {

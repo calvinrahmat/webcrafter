@@ -1,7 +1,8 @@
 export default {
-    title1: "Creative & Professional",
-    title2: "Skills Experience",
-    description: "We are a remote developer agency based in Bangladesh, working with clients around the world. As passionate designers & developer, we love building website, mobile app and UI/UX that are easy to use.",
-    btnText: "Get Any Project",
-    btnUrl: "/"
-}
+  title1: "Professional Websites",
+  title2: "Zero Cost. Zero Risk.",
+  description:
+    "Join thousands of successful businesses who've launched with our free website builder. Get everything you need to succeed online: beautiful designs, powerful features, and expert support - without spending a dime.",
+  btnText: "Start Your Free Website",
+  btnUrl: "/",
+};
