@@ -6,17 +6,12 @@ import { Link } from "react-scroll";
 import Logos from "Assets/header/logo.png";
 
 const Logo = () => {
-    return (
-        <Box sx={{ mt: "2px", a: { cursor: "pointer" } }}>
-            <Link
-                to="home"
-                spy={true}
-                smooth={true}
-                duration={500}
-            >
-                <Image src={Logos} width={200} height={30} alt="Logo" />
-            </Link>
-        </Box>
-    );
+  return (
+    <Box sx={{ mt: "2px", a: { cursor: "pointer" } }}>
+      <Link to="home" spy={true} smooth={true} duration={500}>
+        <Image src={Logos} width={200} height={200} alt="Logo" />
+      </Link>
+    </Box>
+  );
 };
 export default Logo;
